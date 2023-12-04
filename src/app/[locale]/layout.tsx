@@ -32,8 +32,10 @@ export default async function LocaleLayout({ children, params: {locale} } : Loca
                 locale={locale}
             />
                 <NextIntlClientProvider locale={locale} messages={messages}>
-                    {children}
-                    <Footer />
+                    <div className="text-gray-400 bg-gray-900 body-font">
+                        {children}
+                        <Footer />
+                    </div>
                 </NextIntlClientProvider>
             </body>
         </html>

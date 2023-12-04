@@ -46,7 +46,7 @@ const ButtonLanguage = ({ en, es, current } : ButtonProps) => {
         leaveTo="transform opacity-0 scale-95"
       >
         <Menu.Items 
-          className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="absolute right-0 z-10 mt-2 w-20 origin-top-right rounded-md bg-gray shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
           onClick={redirectToLanguage}
         >
           <div className="py-1">
@@ -55,7 +55,7 @@ const ButtonLanguage = ({ en, es, current } : ButtonProps) => {
                 <a
                   href="#"
                   className={classNames(
-                    active ? 'bg-gray-500 text-gray' : 'text-white',
+                    active ? 'bg-gray-500 text-gray rounded-md ring-0' : 'text-white rounded-md bg-gray-800',
                     'block px-4 py-2 text-sm'
                   )}
                 >

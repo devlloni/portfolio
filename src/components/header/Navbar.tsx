@@ -1,6 +1,7 @@
 import React, { ReactPropTypes } from 'react';
 import { useTranslations } from 'next-intl';
 import ButtonLanguage from './ButtonLanguages';
+import Link from 'next/link';
 
 type Props = {
     locale: string;
@@ -18,8 +19,8 @@ const Navbar = ({ locale }: Props) => {
                     <span className="ml-3 text-xl">{t('Header.title')}</span>
                 </a>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a className="mr-5 hover:text-white">{t('Header.link1')}</a>
-                    <a className="mr-5 hover:text-white">{t('Header.link2')}</a>
+                    <Link href="/" className="mr-5 hover:text-white">{t('Header.link1')}</Link>
+                    <Link href="/projects" className="mr-5 hover:text-white">{t('Header.link2')}</Link>
                     <a className="mr-5 hover:text-white">{t('Header.link3')}</a>
                 </nav>
                 <ButtonLanguage
