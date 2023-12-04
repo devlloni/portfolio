@@ -1,0 +1,21 @@
+{
+    "IndexPage": {
+        "title": "¡Bienvenidos!",
+        "description": "Espero puedas encontrar lo que buscas..."
+    },
+    "InfoPage": {
+        "title": "Información",
+        "description": "Esta es mi web application, donde podrás revisar todos mis trabajos y trayectorias dentro del desarrollo web."
+    },
+    "Header": {
+        "title": "Devllo",
+        "link1": "Inicio",
+        "link2": "Proyectos",
+        "link3": "Contacto",
+        "langButton": {
+            "en": "Inglés 🇬🇧",
+            "es": "Español 🇪🇸"
+        }
+    },
+    "welcome": "XD"
+}
