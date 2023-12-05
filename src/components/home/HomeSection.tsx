@@ -14,7 +14,7 @@ const HomeSection = () => {
                                     src="/profile_pic_me.jpeg"
                                     width={200}
                                     height={200}
-                                    alt="Lautaro Delloni's picture"
+                                    alt="Lautaro Dellonis picture"
                                 />
                             </div>
                             <div className="flex flex-col items-center text-center justify-center">
