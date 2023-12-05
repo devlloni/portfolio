@@ -27,7 +27,7 @@ export default async function LocaleLayout({ children, params: {locale} } : Loca
 
     return (
         <html lang={locale}>
-            <body>
+            <body className="bg-gray-900">
             <Navbar
                 locale={locale}
             />

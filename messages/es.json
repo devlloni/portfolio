@@ -17,5 +17,19 @@
             "es": "🇪🇸"
         }
     },
+    "Projects": {
+        "ABC": {
+            "title": "ABC Platform - Aplicación Web de Administración",
+            "description": "Lorem ipsum lorem asdfasdfas asdfasd fdasfa"
+        },
+        "Discord": {
+            "title": "Discord Bot, automatiza tu música! :D",
+            "description": "Invítalo, reproduce alguna canción, y él hará la magia! "
+        },
+        "Shaco": {
+            "title": "Baila con shaco? no lo sé, juega (:",
+            "description": "Lorem ipsum lorem asdfasdfas asdfasd fdasfa"
+        }
+    },
     "welcome": "XD"
 }

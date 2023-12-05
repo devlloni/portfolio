@@ -1,30 +1,25 @@
 import React from 'react';
 import ProjectCard from './projectCard';
+import { useTranslations } from 'next-intl';
 
 const Projects = () => {
-
+    const t = useTranslations();
     const data = [
         {
-            title: 'Discord Music & Playlist BOT - Nodejs & TS',
+            title: t('Projects.Discord.title'),
             link: 'https://github.com/devlloni/discord-teemo-song-bot',
             imageName: 'project_discord_bot.png',
-            description: 'Lorem ipsum lorem asdfasdfas asdfasd fdasfa',
+            description: t('Projects.Discord.description')
         },
         {
-            title: 'amazingAsdf Farm Maker!',
+            title: t('Projects.ABC.title'),
             link: 'assdfdf',
-            imageName: 'project_discord_bot.png',
-            description: 'Lorem ipsum lorem asdfasdfas asdfasd fdasfa',
+            imageName: 'project_abc_platform.png',
+            description: t('Projects.ABC.description')
         },
         {
             title: 'Dance With Shaco? idk play (:',
             link: 'asdfasdfdasf',
-            imageName: 'project_discord_bot.png',
-            description: 'Lorem ipsum lorem asdfasdfas asdfasd fdasfa',
-        },
-        {
-            title: 'D new file - Startup Machine',
-            link: 'asdfasdfdasasf',
             imageName: 'project_discord_bot.png',
             description: 'Lorem ipsum lorem asdfasdfas asdfasd fdasfa',
         },

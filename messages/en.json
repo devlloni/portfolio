@@ -17,5 +17,19 @@
             "es": "🇪🇸"
         }
     },
+    "Projects": {
+        "ABC": {
+            "title": "ABC Platform - Administrator Web Application",
+            "description": "Lorem ipsum lorem asdfasdfas asdfasd fdasfa"
+        },
+        "Discord": {
+            "title": "Discord Music & Playlist BOT - Nodejs & TS",
+            "description": "Invite Teemo, play a song, and let him do the magic!"
+        },
+        "Shaco": {
+            "title": "Dance With Shaco? idk play (:",
+            "description": "Lorem ipsum lorem asdfasdfas asdfasd fdasfa"
+        }
+    },
     "welcome": "XD"
 }
