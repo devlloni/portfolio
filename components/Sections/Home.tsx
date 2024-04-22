@@ -15,7 +15,7 @@ const HomeSection = () => {
                                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600">
                                     <Image
                                         className="rounded-full"
-                                        src="/images/profile_pic_me.jpeg"
+                                        src="https://avatars.githubusercontent.com/u/103016609?v=4"
                                         width={200}
                                         height={200}
                                         alt="Lautaro Dellonis picture"
