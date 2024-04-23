@@ -1,12 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const HomeSection = () => {
     return (
         <div>
             <div className="flex flex-col h-[100vh] items-center justify-center bg-white dark:bg-black transition-bg">
                 <div className=" inset-0 overflow-hidden">
-                    <div className="jumbo absolute -inset-[10px] opacity-50"></div>
+                    <div className=" -inset-[10px] opacity-50"></div>
                 </div>
                 <div className="container px-5 py-10 mx-auto flex flex-col">
                     <div className="lg:w-4/6 mx-auto">
@@ -33,12 +34,13 @@ const HomeSection = () => {
                                 <p className="leading-relaxed text-lg mb-4">
                                     Hola! mi nombre es Lautaro, pero puedes llamarme Dello. Soy un desarrollador web fullstack, Argentino. Me apasiona crear aplicaciones web óptimas e innovativas y me esfuerzo constantemente por mejorar mis técnicas y habilidades, manteniendome al día con las últimas tecnologías.
                                 </p>
-                                <a className="text-purple-400 inline-flex items-center">
+                                <p className='text-purple-200 text-sm'>(Actualmente el sitio/portfolio se encuentra en desarrollo, pero pronto habrá más novedades.)</p>
+                                {/* <a className="text-purple-400 inline-flex items-center">
                                     Ver más
                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>
@@ -47,12 +49,14 @@ const HomeSection = () => {
 
 
                 <div className="mt-4">
+                    <Link href='https://cv.devlloni.me' target='_blank'>
                     <button
                         //  onClick={toggleTheme}
                         className="px-3 py-1 border border-stone-200 rounded-full drop-shadow-sm text-sm text-stone-800 dark:text-white bg-white/40 dark:bg-black/40 backdrop-blur-lg hover:border-stone-300 transition-colors dark:border-stone-500 dark:hover:border-stone-400"
                     >
-                        Ver mis proyectos
+                        Mi currículum online
                     </button>
+                    </Link>
                 </div>
             </div>
         </div>
